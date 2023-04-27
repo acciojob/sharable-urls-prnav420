@@ -19,9 +19,8 @@ function res(event) {
     h3cont += "?name=" + namecontent;
   } else if (!namecontent && yearcontent) {
     h3cont += "?year=" + yearcontent;
-  } else {
-    h3cont += "";
   }
+ 
   h3.textContent = h3cont;
 }
 
