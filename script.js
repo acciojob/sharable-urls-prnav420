@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 var name = document.getElementById("name");
 var year = document.getElementById("year");
-var h3 = document.getElementById("h3");
+var h3 = document.getElementById("url");
 var btn = document.getElementById("button");
 
 var form = document.querySelector("form");
